@@ -8,8 +8,9 @@ import lombok.ToString;
 @Setter
 @ToString
 public class RegisterUser {
+    private String number;
     private String name;
     private String mobileNumber;
     private Long flatNumber;
-
+    private String password;
 }
